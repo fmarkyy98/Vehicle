@@ -5,7 +5,7 @@
 class Driver
 {
 public:
-	Vehicle van;
+	Vehicle* van;
 
 	Driver();
 	void do();
