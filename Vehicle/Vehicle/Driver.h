@@ -8,7 +8,7 @@ public:
 	Vehicle* van;
 
 	Driver();
-	void do();
+	void doo();
 	Product take();
 	void deliver(Product p);
 };

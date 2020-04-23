@@ -151,6 +151,7 @@
     <ClCompile Include="Engine.cpp" />
     <ClCompile Include="FuelTank.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Product.cpp" />
     <ClCompile Include="Vehicle.cpp" />
   </ItemGroup>
   <ItemGroup>

@@ -1,8 +1,11 @@
 #pragma once
 #include <string>
 
-struct Product
+class Product
 {
+public:
 	std::string adress;
+
+	bool operator == (Product& p);
 };
 
