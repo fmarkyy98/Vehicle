@@ -11,6 +11,7 @@ void Driver::doo()
 	while (c < this->van->Capacity)
 	{
 		this->van->cargo.push_back(this->take());
+		++c;
 	}
 	for (Product p : this->van->cargo)
 	{
