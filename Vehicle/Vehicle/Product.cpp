@@ -1,7 +1,7 @@
 #include "Product.h"
 
-bool Product::operator == (Product& p)
+bool operator == (const Product& lhs, const Product& rhs)
 {
-	bool result = this->adress == p.adress;
+	bool result = lhs.adress == rhs.adress;
 	return result;
 }
